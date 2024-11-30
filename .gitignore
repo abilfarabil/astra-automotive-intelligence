@@ -1,0 +1,28 @@
+@'
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Project specific
+data/raw/*
+data/processed/*
+data/final/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/final/.gitkeep
+
+# Logs
+*.log
+
+# Airflow
+airflow/logs/*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+'@ | Set-Content -Path .gitignore

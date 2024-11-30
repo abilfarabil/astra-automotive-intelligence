@@ -9,8 +9,10 @@ This project aims to build a comprehensive data intelligence system for the auto
 3. Predictive analytics for sales forecasting
 4. Sentiment analysis for brand monitoring
 
+[PPT](https://docs.google.com/presentation/d/1onIWAbjSKY0Ictg-DrvV9Xkq4SgDYzB3VxqPppCL7ms/edit?usp=sharing)
+
 ## Project Architecture
-![Architecture Diagram](docs/images/architecture.png)
+![Architecture Diagram](docs/Architecture_Diagram.png)
 
 ### Technology Stack
 - **Data Ingestion**: Selenium, BeautifulSoup4, Requests
@@ -160,9 +162,3 @@ docker-compose run airflow airflow users create \
 - [ ] Testing and Quality Assurance
 - [ ] Dashboard Development
 - [ ] Production Deployment
-
-## Contributing
-This project is maintained by abilfarabil. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-[MIT](LICENSE)

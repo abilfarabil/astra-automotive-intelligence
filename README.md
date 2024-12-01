@@ -15,12 +15,27 @@ This project aims to build a comprehensive data intelligence system for the auto
 ![Architecture Diagram](docs/Architecture_Diagram.png)
 
 ### Technology Stack
-- **Data Ingestion**: Selenium, BeautifulSoup4, Requests
-- **Processing**: Apache Spark, Pandas, DuckDB
-- **Storage**: PostgreSQL, MinIO
-- **Orchestration**: Apache Airflow
-- **Containerization**: Docker
-- **Visualization**: Metabase, Streamlit
+- **Data Ingestion**: 
+  - Web Scraping: Selenium, BeautifulSoup4
+  - API Integration: Requests
+  - File Processing: Pandas
+- **Processing & Transformation**:
+  - Heavy Processing: Apache Spark
+  - Analytics Processing: DuckDB
+  - Data Quality: Great Expectations
+- **Storage**:
+  - Raw Data: MinIO
+  - Warehouse: PostgreSQL
+    - Staging Layer
+    - Core Layer (Dimensions & Facts)
+    - Mart Layer
+- **Orchestration & Monitoring**:
+  - Pipeline Orchestration: Apache Airflow
+  - Container Management: Docker
+  - Pipeline Monitoring: Airflow UI
+- **Analytics & Visualization**:
+  - BI Dashboard: Metabase
+  - Interactive Analytics: Streamlit
 
 ## Data Sources
 
